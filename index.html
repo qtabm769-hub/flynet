@@ -422,17 +422,7 @@
             </span>
           </div>
 
-          <iframe
-            id="flynetFullPlayerIframe"
-            class="w-full h-full border-0 relative z-20"
-            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-presentation"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-            allowfullscreen="true"
-            webkitallowfullscreen="true"
-            mozallowfullscreen="true"
-            referrerpolicy="no-referrer"
-            onload="const sp = document.getElementById('playerLoadingSpinner'); if (sp) sp.classList.add('hidden');"
-          ></iframe>
+<video id="flynetPlayer" controls autoplay playsinline class="w-full h-full object-contain bg-black"></video>
         </div>
 
         <!-- Clean Friendly Error Overlay for Local Server / Card Login -->
