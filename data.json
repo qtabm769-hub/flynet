@@ -11,33 +11,17 @@
       "rating": "9.4",
       "quality": "4K Ultra",
       "duration": "2h 15m",
-      "overview": "عودة أولاد رزق بعد سنوات من الافتراق لتنفيذ عملية سرقة أسطورية ومطاردات شرسة بين الرياض والقاهرة",
+      "overview": "عودة أولاد رزق بعد سنوات من الافتراق لتنفيذ عملية سرقة أسطورية",
       "poster": "https://image.tmdb.org/t/p/w500/xtiOHF99XgaCIKGu4uinHC10y.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/xtiOHF99XgaCIKGu4uinHC10y.jpg",
-      "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-    },
-    {
-      "id": "en-m-101",
-      "tmdbId": 693134,
-      "title": "الجزء الثاني : Dune: Part Two",
-      "type": "movie",
-      "category": "movies",
-      "origin": "foreign",
-      "year": 2024,
-      "rating": "9.5",
-      "quality": "4K IMAX",
-      "duration": "2h 46m",
-      "overview": "بول أتريدز يتحد مع شاني والفريمن لخوض حرب انتقامية ضد المتآمرين الذين دمروا عائلته",
-      "poster": "https://image.tmdb.org/t/p/w500/3fZc7kZ09azB0rtYBVK2hPojZec.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/3fZc7kZ09azB0rtYBVK2hPojZec.jpg",
-      "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
     }
   ],
   "series": [
     {
       "id": "ar-s-401",
       "tmdbId": 247076,
-      "title": "مسلسل الحشاشين (The Assassins)",
+      "title": "مسلسل الحشاشين",
       "type": "series",
       "category": "series",
       "origin": "arabic",
@@ -45,35 +29,18 @@
       "rating": "9.7",
       "quality": "4K Ultra",
       "duration": "30 حلقة",
-      "overview": "الملحمة الضخمة إنتاجاً بقيادة كريم عبدالعزيز في دور حسن الصباح مؤسس فرقة الحشاشين وسط صراعات طاحنة ضد المغول والبيزنطيين",
+      "overview": "ملحمة تاريخية درامية",
       "poster": "https://image.tmdb.org/t/p/w500/y6LwZ0wz9WgK1N1WF7K8F0zZ6uJ.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/y6LwZ0wz9WgK1N1WF7K8F0zZ6uJ.jpg",
-      "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
       "episodesCount": 30
-    },
-    {
-      "id": "tr-s-101",
-      "tmdbId": 210865,
-      "title": "طائر الرفراف (Yalı Çapkını)",
-      "type": "series",
-      "category": "series",
-      "origin": "turkish",
-      "year": 2023,
-      "rating": "9.3",
-      "quality": "1080p FHD",
-      "duration": "مواسم كاملة",
-      "overview": "فريد الشاب الثري المدلل يقرر جده تزويجه من فتاة قروية لترويضه فتشتعل الصراعات العائلية",
-      "poster": "https://image.tmdb.org/t/p/w500/zhTDZtUfpB8sCbCgjqYKsxfY2os.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/zhTDZtUfpB8sCbCgjqYKsxfY2os.jpg",
-      "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "episodesCount": 36
     }
   ],
   "liveChannels": [
     {
       "id": "almasirah",
       "name": "قناة المسيرة الفضائية",
-      "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+      "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
       "category": "news"
     }
   ]
