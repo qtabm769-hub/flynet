@@ -2136,6 +2136,27 @@
       if (input) input.value = '';
       handleSearch('');
     }
+  // دالة لجلب البيانات ديناميكياً من ملف data.json
+async function loadFlyNetData() {
+    try {
+        const response = await fetch('data.json');
+        const data = await response.json();
+        
+        // تحديث القنوات والأفلام في الموقع تلقائياً
+        if (data.liveChannels && typeof SEED_LIVE_CHANNELS !== 'undefined') {
+            window.SEED_LIVE_CHANNELS = data.liveChannels;
+        }
+        if (data.movies && typeof SEED_MOVIES !== 'undefined') {
+            window.SEED_MOVIES = data.movies;
+        }
+        console.log("تم ربط الباك اند (data.json) بنجاح وتحديث المحتوى!");
+    } catch (error) {
+        console.error("خطأ في جلب بيانات الباك اند:", error);
+    }
+}
+
+// تنفيذ الدالة فور تحميل الصفحة
+document.addEventListener('DOMContentLoaded', loadFlyNetData);
   </script>
 </body>
 </html>
