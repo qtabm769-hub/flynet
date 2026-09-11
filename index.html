@@ -411,19 +411,21 @@
           <video id="flynetPlayer" class="w-full h-full" playsinline controls></video>
         </div>
 
-        <!-- Clean Direct Embed Video Player Iframe (for Movies & Series VOD) -->
-        <div id="fullPlayerWrapper" class="w-full h-full relative">
-          <!-- Loading Spinner -->
-          <div id="playerLoadingSpinner" class="absolute inset-0 bg-dark-950 flex flex-col items-center justify-center gap-2.5 z-10 transition-opacity duration-300">
-            <div class="w-10 h-10 border-3 border-brand border-t-transparent rounded-full animate-spin"></div>
-            <span class="text-xs text-slate-300 font-bold flex items-center gap-1.5">
-              <i class="fa-solid fa-circle-play text-brand"></i>
-              <span>جاري بدء التشغيل الفوري...</span>
-            </span>
-          </div>
+        <!-- 3. Clean Direct Video Player Stage -->
+<!-- 3. Clean Direct Video Player Stage -->
+<div id="fullPlayerWrapper" class="w-full h-full relative bg-black flex items-center justify-center overflow-hidden">
+    <!-- Loading Spinner -->
+    <div id="playerLoadingSpinner" class="absolute inset-0 bg-dark-950 flex flex-col items-center justify-center z-20">
+        <div class="w-10 h-10 border-3 border-brand border-t-transparent rounded-full animate-spin"></div>
+        <span class="text-xs text-slate-300 font-bold mt-2 flex items-center gap-1.5">
+            <i class="fa-solid fa-circle-play text-brand"></i>
+            <span>جاري بدء التشغيل الفوري...</span>
+        </span>
+    </div>
 
-<video id="flynetPlayer" controls autoplay playsinline class="w-full h-full object-contain bg-black"></video>
-        </div>
+    <!-- Direct HTML5 Video Player -->
+    <video id="flynetPlayer" class="w-full h-full object-contain bg-black" controls autoplay playsinline></video>
+</div>
 
         <!-- Clean Friendly Error Overlay for Local Server / Card Login -->
         <div id="playerErrorOverlay" class="absolute inset-0 bg-dark-950/95 backdrop-blur-md hidden flex flex-col items-center justify-center gap-3.5 p-6 text-center z-30 select-none">
