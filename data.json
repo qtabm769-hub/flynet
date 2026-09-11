@@ -1,0 +1,20 @@
+{
+  "liveChannels": [
+    {
+      "id": "almasirah",
+      "name": "قناة المسيرة الفضائية",
+      "streamUrl": "ضع_رابط_البث_هنا.m3u8",
+      "category": "news"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "تجربة فيلم",
+      "year": 2026,
+      "videoUrl": "ضع_رابط_فيديو_الفيلم_هنا.mp4",
+      "poster": ""
+    }
+  ],
+  "series": []
+}
